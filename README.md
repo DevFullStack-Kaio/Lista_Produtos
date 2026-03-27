@@ -34,7 +34,7 @@ ROJETO-API/
 
 1. Clone o repositório:
  ## ```bash
-   git clone https://github.comDevFullStack-Kaio/Projeto-API.git
+   git clone https://github.comDevFullStack-Kaio/Lista_Produtos.git
 
 2. ## ```Instalar as dependências:
  rodar o comando no terminal VSCODE: 
