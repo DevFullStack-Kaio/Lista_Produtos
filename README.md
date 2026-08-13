@@ -34,11 +34,11 @@ PROJETO-API/
 
 
 ---
-## 🚀 Como executar:
+## 🚀 Como executar (Modo Dinâmico - API + Frontend)
 
 1. Clone o repositório:
- ## ```bash
-   git clone https://github.comDevFullStack-Kaio/Lista_Produtos.git
+## ```bash
+   git clone https://github.com/DevFullStack-Kaio/Lista_Produtos.git
 
 2. ## ```Instalar as dependências:
  rodar o comando no terminal VSCODE: 
