@@ -1,4 +1,11 @@
 body {
+  background-image: url('images/parede.jpg'); /* coloque sua imagem na pasta */
+  background-size: cover;       /* cobre toda a tela */
+  background-position: center;  /* centraliza a imagem */
+  background-attachment: fixed; /* efeito parallax */
+  font-family: Arial, sans-serif;
+}
+
   font-family: Arial, sans-serif;
   margin: 40px;
   background-color: #f4f4f4;
