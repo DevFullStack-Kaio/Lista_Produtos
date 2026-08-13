@@ -9,25 +9,29 @@ Banco de dados: Usamos o banco de dados SQLite (dev.sqlite3) e os dados estão e
 ---
 ## 📂 Estrutura de Diretórios
 
-ROJETO-API/
+PROJETO-API/
 ├── app.js              # Arquivo principal da aplicação
 ├── bin/www             # Inicialização do servidor
 ├── db/                 # Configuração do banco de dados
 │   ├── migrations/     # Scripts de criação de tabelas
 │   ├── seeds/          # Scripts de carga inicial (ex: produtos)
 │   └── dev.sqlite3     # Banco de dados SQLite
-├── public/             # Arquivos estáticos
-│   ├── images/         # Imagens do projeto
-│   ├── javascripts/    # Scripts frontend
-│   └── stylesheets/    # CSS
-│   └── index.html      # Página inicial
 ├── routes/             # Rotas da API
 │   ├── apiRouterV1.js
 │   ├── apiRouterV2.js
 │   └── index.js
+├── gitignore
+├── index.html          # Página inicial (frontend)
+├── style.css           # Estilos
+├── script.js           # Lógica frontend
+├── images
+    ├── image.png                            # Imagem exemplo
+    ├── Lista de Produtos - Projeto-API.png  # Imagem exemplo
+    ├── parte_index.html.png                 # Imagem exemplo
 ├── knexfile.js         # Configuração do Knex.js
 ├── package.json        # Dependências do projeto
 └── README.md           # Documentação
+
 
 ---
 ## 🚀 Como executar:
@@ -43,7 +47,7 @@ ROJETO-API/
 3. ## ```Execute as migrations e seeds:
   rodar os comandos: 
   npx knex migrate:latest
-   npx knex seed:run
+  npx knex seed:run
 
 4. ## ```Inicie o servidor: 
    rodar o comando:
@@ -51,6 +55,14 @@ ROJETO-API/
 
 5. Acesse no navegador:
    Acessar http://localhost:5220 e como funciona o formulário de adicionar produto.
+
+🌐 Modo Estático (GitHub Pages)
+Este projeto também pode ser publicado como site estático.
+Nesse modo, os arquivos index.html, style.css e script.js ficam na raiz e a tabela de produtos já aparece preenchida no HTML.
+
+Diferença entre os modos
+- Dinâmico: os produtos são carregados da API (/api/v1/produtos).
+- Estático: os produtos estão escritos diretamente no index.html.
 
 🛠️ Tecnologias utilizadas
 - Node.js + Express
@@ -89,5 +101,5 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
-[... texto padrão continua ...]
+
 
